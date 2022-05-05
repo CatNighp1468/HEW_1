@@ -20,7 +20,7 @@
 <body>
     <?php
          try {
-            $db = new PDO('mysql:dbname=7s7lp_hew_1_db;host=mysql44.onamae.ne.jp;charset=utf8','7s7lp_catnighp_1468','1201Sato@1468');
+            $db = new PDO('***********');
          
         $pegas= $db -> query('SELECT * FROM shop WHERE id="' .$id. '"');
         $pega = $pegas->fetch();
