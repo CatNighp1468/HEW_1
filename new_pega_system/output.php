@@ -14,7 +14,7 @@
     $tel = $_POST['tel'];
     $info = $_POST['info'];
         try {
-            $db = new PDO('mysql:dbname=7s7lp_hew_1_db;host=mysql44.onamae.ne.jp;charset=utf8','7s7lp_catnighp_1468','1201Sato@1468');
+            $db = new PDO('********');
             $contents = $db -> exec('INSERT INTO shop SET shop_name ="' . $shop_name . '", time = "'. $time. '", tel = "' .$tel. '", info ="' . $info . '"');
             $pegas= $db -> query('SELECT id, shop_name, info FROM shop WHERE id=(SELECT MAX(id) FROM shop)');
             $pega = $pegas->fetch();
