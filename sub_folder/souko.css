@@ -1,0 +1,13 @@
+ul.re_spot_list {
+	overflow-x: auto;
+	white-space: nowrap;
+}
+li.item {
+	display: inline-block;
+	width: 60%;
+	height: 400px;
+	margin: 16px;
+	font-size: 48px;
+	color: #fff;
+	background-color: #ff5a5f;
+}	
